@@ -40,6 +40,7 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.8.6</version>
+                <skip>true</skip>
                 <executions>
                     <execution>
                         <id>unit-tests</id>
